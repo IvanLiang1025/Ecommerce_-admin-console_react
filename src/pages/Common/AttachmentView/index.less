@@ -1,0 +1,48 @@
+@import '~@/global.less';
+
+.avatarView{
+  width: 100%;
+  .avatarContent{
+    width: 100px;
+    margin: auto;
+    .avatar_title {
+      height: 22px;
+      margin-bottom: 8px;
+      color: @heading-color;
+      font-size: @font-size-base;
+      line-height: 22px;
+    }
+    .avatar {
+      width: 144px;
+      height: 144px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+    .button_view {
+      width: 144px;
+      text-align: center;
+    }
+  }
+}
+
+.icon {
+  cursor: pointer;
+  display: inline-block;
+  width: 15%;
+  color: #005ca8;
+  font-size: 24px;
+}
+
+.uploadBlock {
+  display: inline-flex;
+  align-items: flex-start;
+  .leftSide {
+    width: 18%
+  }
+  .rightSide {
+    width: 82%
+  }
+}
